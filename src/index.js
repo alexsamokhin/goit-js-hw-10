@@ -4,7 +4,7 @@ import debounce from 'lodash.debounce';
 import { fetchCountries } from './fetchCountries';
 
 const DEBOUNCE_DELAY = 300;
-let country = null;
+let countrySearch = null;
 
 const { countryInput, countryList, countryInfo } = {
   countryInput: document.querySelector('#search-box'),
